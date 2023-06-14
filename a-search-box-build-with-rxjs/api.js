@@ -1,4 +1,4 @@
-import { requestUrl, token } from './const.js';
+import { requestUrl, token } from '../configs/const.js';
 
 const { Observable } = rxjs;
 
