@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Box</title>
+  <style>
+    #suggestions {
+      border: 1px solid #f60;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" id="search-input" placeholder="Search...">
+  <button id="search-btn">Search</button>
+  <button id="reset-btn">Reset</button>
+  <div id="loading" style="display:none;">Loading...</div>
+  <div id="error" style="display:none;">Request failed</div>
+  <ul id="suggestions" style="display:none;"></ul>
+  <ul id="results"></ul>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/7.5.2/rxjs.umd.min.js"></script>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
