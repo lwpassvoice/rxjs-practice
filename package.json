@@ -1,0 +1,26 @@
+{
+  "name": "rxjs-practice",
+  "version": "1.0.0",
+  "description": "Practices of rxjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwpassvoice/rxjs-practice.git"
+  },
+  "keywords": [
+    "rxjs"
+  ],
+  "author": "lw <zgdxst@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lwpassvoice/rxjs-practice/issues"
+  },
+  "homepage": "https://github.com/lwpassvoice/rxjs-practice#readme",
+  "devDependencies": {
+    "rxjs": "^7.8.1",
+    "typescript": "^4.9.5"
+  }
+}
