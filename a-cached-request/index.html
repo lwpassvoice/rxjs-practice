@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RxJS Cached Request</title>
+</head>
+<body>
+    <div>
+        <h2>UserInfo</h2>
+        <div id="userInfo"></div>
+    </div>
+
+    <div id="componentA">
+        <h2>Component A</h2>
+        <button id="getUserInfoA">Get User Info</button>
+        <div id="userInfoA"></div>
+    </div>
+
+    <div id="componentB">
+      <h2>Component B</h2>
+      <button id="getUserInfoB">Get User Info</button>
+      <div id="userInfoB"></div>
+    </div>
+
+    <div>
+        <h2>ForceUpdate</h2>
+        <button id="forceUpdate">Force update User Info</button>
+    </div>
+
+    <div id="reset">
+        <h2>Reset</h2>
+        <button id="Reset">Reset User Info</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/7.5.2/rxjs.umd.min.js"></script>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
