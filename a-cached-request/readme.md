@@ -11,3 +11,5 @@ A、B都从接口接口获取信息，造成重复请求。
 3. 有缓存数据时，A、B分别从缓存获取信息。
 4. 有缓存数据时，可强制刷新缓存，并通知A、B。
 5. 可强制清除缓存数据。
+
+### 在线[codesandbox](https://codesandbox.io/s/a-cached-request-n586kw), token替换为qfbMTp642uwaIldU6LpJeYcT44U2Sbwv
