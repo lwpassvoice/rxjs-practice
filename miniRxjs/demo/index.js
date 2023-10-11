@@ -1,6 +1,6 @@
 const { ReplaySubject } = require('..');
 
-const rSubject = new ReplaySubject(1);
+const rSubject = new ReplaySubject(2);
 
 rSubject.next(5);
 rSubject.next(7);
