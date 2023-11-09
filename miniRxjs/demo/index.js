@@ -1,4 +1,4 @@
-const { ReplaySubject } = require('..');
+import { ReplaySubject } from './miniRxjs';
 
 const rSubject = new ReplaySubject(2);
 
